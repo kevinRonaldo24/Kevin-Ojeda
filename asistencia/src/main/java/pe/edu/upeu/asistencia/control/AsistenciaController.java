@@ -16,6 +16,7 @@ public class AsistenciaController {
         double num1 = Double.parseDouble(txtNum1.getText());
         double num2 = Double.parseDouble(txtNum2.getText());
         double resultado = num1+num2;
+
         txtResult.setText("");
 
 
