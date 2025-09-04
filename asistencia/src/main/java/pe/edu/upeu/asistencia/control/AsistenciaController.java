@@ -12,17 +12,10 @@ public class AsistenciaController {
     @FXML Label txtResult;
 
     @FXML
-    public void sumar(){
+    public void sumar() {
         double num1 = Double.parseDouble(txtNum1.getText());
         double num2 = Double.parseDouble(txtNum2.getText());
-        double resultado = num1+num2;
-
-        txtResult.setText("");
-
-
+        double resultado = num1 + num2;
+        txtResult.setText(String.valueOf(resultado));
     }
-
-
-
-
 }

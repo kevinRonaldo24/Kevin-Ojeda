@@ -1,10 +1,12 @@
 package pe.edu.upeu.herencia;
 
-public class vehiculo {
-    String marca="ford";
+public class Vehiculo {
+    String marca="Ford";
+    protected  String modelo="Fiesta";
+    private String color="Red";
 
     public void sonido(){
-        System.out.println("tuut... tuut");
-
+        System.out.println("Tuut...tuut.");
     }
+
 }

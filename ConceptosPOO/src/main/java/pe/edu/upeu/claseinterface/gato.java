@@ -1,13 +1,13 @@
 package pe.edu.upeu.claseinterface;
 
-public class gato implements Animal {
+public class Gato implements Animal {
     @Override
-    public void emitirsonido() {
-        System.out.println("meu...meu");
+    public void emitirSonido() {
+        System.out.println("Meu...meu..");
     }
 
     @Override
     public void dormir() {
-
+        System.out.println("Zzzz....Zzz..");
     }
 }

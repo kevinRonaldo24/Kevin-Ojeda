@@ -1,19 +1,16 @@
 package pe.edu.upeu.herencia;
 
-import java.util.concurrent.Callable;
+public class Carro extends Vehiculo {
 
-public class Carro extends vehiculo{
 
     public static void main(String[] args) {
-      Carro c = new Carro();
-      System.out.println("caracteristicas");
-      c.marca="toyota";
-      System.out.println("marca"+c.marca);
-
-
-      c.sonido();
-
+        Carro c = new Carro();
+        System.out.println("Caracteristicas:");
+        c.marca="Toyota";
+        System.out.println("Marca"+c.marca);
+        System.out.println("Modelo"+c.modelo);
+        System.out.println("Color:"+"No se puede" +
+                " heredar por ser privado");
+        c.sonido();
     }
 }
-
-
